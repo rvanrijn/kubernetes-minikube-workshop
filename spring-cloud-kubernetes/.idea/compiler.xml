@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="client-service" />
+        <module name="travel-agency-service" />
+        <module name="liveness-example" />
+        <module name="readiness-example" />
+        <module name="demo-frontend" />
+        <module name="demo-backend" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="client-service" target="1.5" />
+      <module name="demo-backend" target="1.5" />
+      <module name="demo-frontend" target="1.5" />
+      <module name="liveness-example" target="1.5" />
+      <module name="readiness-example" target="1.5" />
+      <module name="spring-cloud-kubernetes" target="1.5" />
+      <module name="travel-agency-service" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
